@@ -6,7 +6,7 @@ use Drupal\Core\Routing\RouteSubscriberBase;
 use Symfony\Component\Routing\RouteCollection;
 
 /**
- * Listens to the dynamic route events.
+ * Subscriber for dynamic route events.
  */
 class SiteInfoSubscriber extends RouteSubscriberBase {
 

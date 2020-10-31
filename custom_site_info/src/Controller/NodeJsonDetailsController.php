@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 class NodeJsonDetailsController extends ControllerBase {
 
   /**
-   * Function to return Drupal plans.
+   * Funtion to validate site api key and node id and return node data in json format.
    */
   public function nodeJsonDetails($site_api_key,$nid) {
     $api_key_site = \Drupal::config('system.site')->get('siteapikey');
