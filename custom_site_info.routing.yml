@@ -1,9 +1,0 @@
-custom_site_info.node_json_details:
-  path: '/admin/node_json_details/{site_api_key}/{nid}'
-  defaults:
-    _controller: 'Drupal\custom_site_info\Controller\NodeJsonDetailsController::nodeJsonDetails'
-    _title: 'Json representation for nodes of content type page'
-  requirements:
-    _permission: 'administer'
-  options:
-    _admin_route: TRUE
